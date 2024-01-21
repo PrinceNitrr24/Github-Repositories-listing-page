@@ -1,0 +1,40 @@
+#loader {
+  display: none; /* Hide loader by default */
+}
+
+.topics span {
+  margin-right: 5px;
+}
+
+#userDetails {
+  text-align: center;
+}
+
+#userImage {
+  width: 100px;
+  height: 100px;
+}
+
+#userDetails {
+  background-color:rgb(250, 249, 246);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#userImage {
+  width: 100px; 
+  height: 100px;
+}
+
+#userName {
+  font-size: 1.5rem; 
+  font-weight: bold;
+}
+
+#userDescription,
+#userLocation,
+#userTwitter,
+#userGitHub {
+  margin-bottom: 0.5rem;
+}
